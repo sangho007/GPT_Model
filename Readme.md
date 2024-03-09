@@ -11,6 +11,7 @@ MAC OS의 단축어 기능을 통해 GPT API 사용하기
 ## 기능
 - gpt4-turbo-preview 사용가능
 - 이전 대화 저장  
+![img_2.png](img_2.png)
 
 ## 준비물 
     OPENAI_API_KEY -> openai가서 키 받으세요. 결제도 하세요
