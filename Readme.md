@@ -26,6 +26,10 @@ MAC OS의 단축어 기능을 통해 GPT API 사용하기
     cd GPT_MODEL
     
     python3 service.py "0 아님 1" "openai_key"
+    ex) python3 service.py "0" "asdf"
+
+    "0" 인지 0 인지 저도 헷갈려요 알아서 찾아보세요
+
     output.md에 결과물이 저장됩니다
     
     인수로 0 준 경우 : 이전 대화 기억 안하기 
