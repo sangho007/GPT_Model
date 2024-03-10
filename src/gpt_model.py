@@ -43,13 +43,13 @@ class GPT_Model:
 
             self.gpt_messages = self.history.copy()
             self.gpt_messages += [
-                {"role": "system", "content": "You are a professional professor"},
+                {"role": "system", "content": "You are a professional supporter"},
                 {
                     "role": "user",
                     "content": [
                         {
                             "type": "text",
-                            "text": f"{self.input_msg}.  Please answer in as much detail as possible in Korean. Use English only when necessary. Since you have to do your homework, please answer as accurately as possible. However, there should not be a lot of unnecessary and non-technical information.",
+                            "text": f"{self.input_msg}.  Please answer in as much detail as possible in Korean. Use English only when necessary. Since you have to do your homework, please answer as accurately as possible. ",
                         },
                     ],
                 },
@@ -59,8 +59,8 @@ class GPT_Model:
                 model="gpt-4-turbo-preview",
                 messages=self.gpt_messages,
                 max_tokens=4096,
-                temperature=0.5,
-                top_p=1,
+                temperature=1,
+                top_p=0.9,
                 presence_penalty=0,
                 frequency_penalty=0,
                 n=1,
