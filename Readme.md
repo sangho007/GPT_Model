@@ -43,6 +43,11 @@ MAC OS의 단축어 기능을 통해 GPT API 사용하기
 -------------
 ## 단축어 
 - 아래 사진은 번역 기능이 빠져있고 프로젝트 구조가 약간 다릅니다. 경로에 맞춰서 스크립트 수정해주세요
+
+    txt파일이나 md파일은 ./IO/xxx.txt
+    py파일은 ./src/xxx.py
+
+
 ![img.png](img.png)
 
 ![img_1.png](img_1.png)
