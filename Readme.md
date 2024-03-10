@@ -13,6 +13,7 @@ MAC OS의 단축어 기능을 통해 GPT API 사용하기
 - 이전 대화 저장  
 - 영어 번역
 - 한국어 번역
+![alt text](image-1.png)
 ![alt text](image.png)
 
 ## 준비물 
