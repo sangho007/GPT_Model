@@ -87,7 +87,7 @@ class GPT_Model:
                     "content": [
                         {
                             "type": "text",
-                            "text": f"{self.input_msg}.  translate to english",
+                            "text": f"{self.input_msg}.  translate to english. and Maintains the only formatting of the Markdown language",
                         },
                     ],
                 },
@@ -123,7 +123,7 @@ class GPT_Model:
                     "content": [
                         {
                             "type": "text",
-                            "text": f"{self.input_msg}.  한국어로 번역해",
+                            "text": f"{self.input_msg}.  한국어로 번역해. 그리고 마크다운 언어의 서식은 유지해. 코드를 제외한 내용은 다 번역해줘.",
                         },
                     ],
                 },
