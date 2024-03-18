@@ -69,7 +69,7 @@ class GPT_Model:
 
             for chunk in response:
                 if chunk.choices[0].delta.content is not None:
-                    print(chunk.choices[0].delta.content, end="")
+                    # print(chunk.choices[0].delta.content, end="")
                     self.response_content += chunk.choices[0].delta.content
                     self.make_markdown(str(self.response_content))
 
@@ -107,7 +107,7 @@ class GPT_Model:
 
             for chunk in response:
                 if chunk.choices[0].delta.content is not None:
-                    print(chunk.choices[0].delta.content, end="")
+                    # print(chunk.choices[0].delta.content, end="")
                     self.response_content += chunk.choices[0].delta.content
                     self.make_markdown(str(self.response_content))
 
@@ -143,7 +143,7 @@ class GPT_Model:
 
             for chunk in response:
                 if chunk.choices[0].delta.content is not None:
-                    print(chunk.choices[0].delta.content, end="")
+                    # print(chunk.choices[0].delta.content, end="")
                     self.response_content += chunk.choices[0].delta.content
                     self.make_markdown(str(self.response_content))
 
