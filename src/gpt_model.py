@@ -49,7 +49,7 @@ class GPT_Model:
                     "content": [
                         {
                             "type": "text",
-                            "text": f"{self.input_msg}.  Please answer in as much detail as possible in Korean. Use English only when necessary. Since you have to do your homework, please answer as accurately as possible. ",
+                            "text": f"{self.input_msg}.  You're a helpful assistant named MacGPT. Provide clear and thorough answers but be concise. Let's work this out in a step by step way to be sure we have the right answer. ",
                         },
                     ],
                 },
